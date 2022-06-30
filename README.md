@@ -47,3 +47,7 @@ TODO
 ## Running pihole in k8s
 
 TODO
+
+## Using Alpine in diskless mode
+
+TODO: Explain lbu + crash tests
