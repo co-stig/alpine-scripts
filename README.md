@@ -19,3 +19,31 @@ dislocker /dev/sdc2 -u -- /media/bitlocker
 losetup -f /media/bitlocker/dislocker-file
 mount -t ntfs /dev/loop0 /media/bitlockermount
 ```
+
+## Install and configure k3s
+
+TODO
+
+## Configure reliable storage
+
+TODO: MD + XFS + LUKS
+
+## Configure S3 backups
+
+TODO: rclone
+
+## Tiered backups
+
+TODO: RAM --> SSD --> HDD --> S3
+
+## Configure wi-fi access point
+
+TODO: hostapd
+
+## Configure local DNS server and root CA
+
+TODO
+
+## Running pihole in k8s
+
+TODO
